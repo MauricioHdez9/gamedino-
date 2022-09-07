@@ -80,4 +80,7 @@ scoreintervalId = setInterval(()=>
     document.getElementById("score").innerText = score
 
 },1000)
-
+//---- colisiones  ---------------------------------------------------------------------------------------- 
+//limtplayer = $player.getBoundingClientRect();
+ limtcactus = cactaus.getBoundingClientRect();
+console.log(limtcactus,limtplayer)
